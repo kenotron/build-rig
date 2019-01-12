@@ -8,6 +8,7 @@ Jest is one of the most popular testing libraries in the Javascript ecosystem. I
 
 ```tsx
 // just-task.js
+import { task } from 'just-task';
 import { jestTask } from 'just-task-preset';
 task('test', jestTask());
 ```
@@ -16,6 +17,7 @@ You can pass in a few options like any another preset tasks in the `just-task-pr
 
 ```tsx
 // just-task.js
+import { task } from 'just-task';
 import { jestTask } from 'just-task-preset';
 
 const options = {

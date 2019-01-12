@@ -8,6 +8,7 @@ Typescript is a very popular compiler. But as the amount of code grows, develope
 
 ```tsx
 // just-task.js
+import { task } from 'just-task';
 import { tslintTask } from 'just-task-preset';
 task('tslint', tslintTask());
 ```

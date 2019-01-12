@@ -11,6 +11,7 @@ sidebar_label: Command line arguments
 To read the arguments passed in from command line, use the `this.argv` object provided by `yargs`.
 
 ```js
+const { task, logger } = require('just-task');
 task('pillageMeArgs', function() {
   logger.info('a bunch of aarrrrrrgs', this.argv);
 });

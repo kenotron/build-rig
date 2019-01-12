@@ -12,6 +12,7 @@ A list of available options are located at the [Typescript documentation site](h
 
 ```tsx
 // just-task.js
+import { task } from 'just-task';
 import { tscTask } from 'just-task-preset';
 task('ts', tscTask());
 ```
@@ -20,7 +21,7 @@ For variety, try having two kinds of output at the same time (built in parallel)
 
 ```tsx
 // just-task.js
-import { parallel } from 'just-task';
+import { task, parallel } from 'just-task';
 import { tscTask } from 'just-task-preset';
 task('ts:commonjs', tscTask({ module: 'commonjs' }));
 task('ts:esnext', tscTask({ module: 'esnext' }));

@@ -12,6 +12,7 @@ These presets are coded as higher order task functions. Each of these preset fun
 
 ```ts
 // just-task.js
+import { task } from 'just-task';
 import { tscTask } from 'just-task-preset';
 task('ts', tscTask());
 ```
@@ -20,6 +21,7 @@ Generally, these higher order functions also take an `options` argument to gener
 
 ```ts
 // just-task.js
+import { task } from 'just-task';
 import { tscTask } from 'just-task-preset';
 task('ts:commonjs', tscTask({ module: 'commonjs' }));
 task('ts:esnext', tscTask({ module: 'esnext' }));
