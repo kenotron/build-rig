@@ -4,7 +4,7 @@ title: Composition of tasks
 sidebar_label: Composition of tasks
 ---
 
-Once a project get to be a bit more complex, a build step might consist of multiple sub tasks. This can be achieved with composition. This is the main reason `just-task` is made. It simplifies the composition of tasks.
+Once a project gets to be a bit more complex, a build step might consist of multiple sub tasks. This can be achieved with composition. This is the main reason `just-task` is made. It simplifies the composition of tasks.
 
 ## Running tasks in a series
 
