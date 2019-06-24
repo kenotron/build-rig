@@ -4,9 +4,9 @@ title: Composition of tasks
 sidebar_label: Composition of tasks
 ---
 
-Once a project get to be a bit more complex, a build step might consist of multiple sub tasks. This can be achieved with composition. This is the main reason `just-task` is made. It simplifies the composition of tasks.
+Once a project gets a bit more complex, a build step might consist of multiple subtasks. This can be achieved with composition. This is the main reason `just-task` is made. It simplifies the composition of tasks.
 
-## Running tasks in a series
+## Running tasks in series
 
 ```js
 const { task, series } = require('just-task');
@@ -24,7 +24,7 @@ task('build', series('clean', 'babel'));
 
 When you trigger `just build`, the `clean` task will run and complete before `babel` task is run.
 
-## Runny tasks in parallel
+## Running tasks in parallel
 
 To take advantage of multi-core CPUs on our machines, we can run several tasks in parallel. Simply use the `parallel()` function.
 
