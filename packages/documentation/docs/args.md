@@ -35,6 +35,6 @@ The `option()` function is the same one exposed by `yargs.option()` - so you can
 If you describe the task in this fashion, you can get a list of tasks with descriptions like this:
 
 ```
-just --help
-just blimey --help
+npx just --help
+npx just blimey --help
 ```
